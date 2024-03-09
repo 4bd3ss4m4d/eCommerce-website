@@ -4,9 +4,12 @@ header {
     left: 0;
 
     width: 100%;
-    padding: 20px 80px;
+    padding: 1.25rem 5rem;
+    /* Converted from 20px 80px */
+
     background-color: #E3E6F3;
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    box-shadow: 0 0.3125rem 0.9375rem rgb(0, 0, 0, 0.06);
+    /* Converted from 0 5px 15px rgba(0, 0, 0, 0.06) */
 
     z-index: 1000;
 
@@ -16,7 +19,8 @@ header {
 }
 
 .logo {
-    width: 80px;
+    width: 5rem;
+    /* Converted from 80px */
     height: auto;
 }
 
@@ -28,7 +32,8 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin: 0 20px;
+    margin: 0 1.25rem;
+    /* Converted from margin: 0 20px; */
 }
 
 nav ul li a {
@@ -49,10 +54,12 @@ nav ul li a::after {
     content: "";
     position: absolute;
 
-    height: 2px;
+    height: 0.125rem;
+    /* Converted from 2px */
     width: 0;
 
-    bottom: -4px;
+    bottom: -0.25rem;
+    /* Converted from -4px */
     left: 0;
 
     background: #088178;
