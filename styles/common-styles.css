@@ -8,64 +8,14 @@ html {
 
 * {
     box-sizing: inherit;
-    font-family: "Spartan", sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body {
-    width: 100%;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
-    margin: 0;
-    padding: 0;
+    font-family: "Spartan", sans-serif;
     font-weight: normal;
-}
-
-h1 {
-    font-size: 50px;
-    line-height: 64px;
     color: #222;
-}
-
-h2 {
-    font-size: 46px;
-    line-height: 54px;
-    color: #222;
-}
-
-h4 {
-    font-size: 20px;
-    color: #222;
-}
-
-h6 {
-    font-weight: 700;
-    font-size: 12px;
-}
-
-p {
-    font-size: 16px;
-    color: #465b52;
-    margin: 15px 0 20px 0;
-}
-
-.section-p1 {
-    padding: 40px 80px;
-}
-
-.section-m1 {
-    margin: 40px 0;
 }
 
 ol,
@@ -76,4 +26,47 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+}
+
+h1 {
+    font-size: 3.125rem;
+    /* 50px */
+    line-height: 1.28;
+    /* 64px / 50px */
+}
+
+h2 {
+    font-size: 2.875rem;
+    /* 46px */
+    line-height: 1.17;
+    /* 54px / 46px */
+}
+
+h4 {
+    font-size: 1.25rem;
+    /* 20px */
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 0.75rem;
+    /* 12px */
+}
+
+p {
+    font-size: 1rem;
+    /* 16px */
+    color: #465b52;
+    margin-bottom: 1.25rem;
+    /* 20px */
+}
+
+.section-p1 {
+    padding: 2.5rem 5rem;
+    /* 40px 80px */
+}
+
+.section-m1 {
+    margin: 2.5rem 0;
+    /* 40px */
 }
