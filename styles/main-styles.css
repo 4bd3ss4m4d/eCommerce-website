@@ -18,6 +18,8 @@
     background-position: 95% bottom;
     background-repeat: no-repeat;
     background-size: auto 80%;
+
+    margin-bottom: 5rem;
 }
 
 .banner-container {
@@ -62,4 +64,43 @@
     /* Converted from 140px */
 
     cursor: pointer;
+}
+
+/* Why Choose 4BD Shop */
+
+.why-shop-at-4BD {
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+}
+
+.our-benefits {
+    font-size: 1.25rem;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+}
+
+.articles-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.benefit {
+    flex: 1;
+    margin: 0 1rem;
+
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    p {
+        font-size: 0.90rem;
+        line-height: 1.1875rem;
+    }
 }
