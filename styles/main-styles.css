@@ -33,13 +33,22 @@
     align-items: center;
 }
 
-.banner h4 {
-    padding-bottom: 0.625rem;
-    /* Converted from 10px */
-}
+.banner {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
 
-.banner h1 {
-    color: #088178;
+    h2 {
+        color: #088178;
+        line-height: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        padding-bottom: 1.5rem;
+    }
 }
 
 .banner button {
@@ -66,7 +75,11 @@
     cursor: pointer;
 }
 
-/* Why Choose 4BD Shop */
+button:hover {
+    background-color: #00663d;
+}
+
+/* Our Benefits Styles */
 
 .why-shop-at-4BD {
     padding: 0 5rem;
