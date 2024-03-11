@@ -135,3 +135,19 @@
         opacity: 1;
     }
 }
+
+.lightSlider .prev {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Add more styles as needed */
+}
+
+.lightSlider .next {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Add more styles as needed */
+}
