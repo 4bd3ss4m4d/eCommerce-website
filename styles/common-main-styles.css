@@ -1,0 +1,11 @@
+section {
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    border: 1px solid #e0e0e0;
+}

@@ -14,7 +14,10 @@
     />
     <link rel="stylesheet" href="styles/common-styles.css" />
     <link rel="stylesheet" href="styles/header-styles.css" />
-    <link rel="stylesheet" href="styles/main-styles.css" />
+    <link rel="stylesheet" href="styles/common-main-styles.css" />
+    <link rel="stylesheet" href="styles/banner-styles.css" />
+    <link rel="stylesheet" href="styles/benefits-styles.css" />
+    <link rel="stylesheet" href="styles/slider-styles.css" />
     <link rel="stylesheet" href="styles/lightslider.css" />
     <script type="text/javascript" src="scripts/jquery.js"></script>
     <script type="text/javascript" src="scripts/lightslider.js"></script>
@@ -42,7 +45,7 @@
       </nav>
     </header>
     <main>
-      <section class="banner section-padding" id="banner">
+      <section class="banner" id="banner">
         <div class="banner-container">
           <h4>New Arrivals Await!</h4>
           <h2>Elevate Your Styles</h2>
@@ -51,200 +54,201 @@
           <button>SHOP NOW</button>
         </div>
       </section>
-      <section class="why-shop-at-4BD section-padding" id="why-shop-at-4BD">
-        <div class="our-benefits">
-          <h2>Our Benefits</h2>
-          <div class="articles-container">
-            <article class="benefit free-shipping">
-              <h3>
-                <span class="material-symbols-outlined"> local_shipping </span
-                >Free shipping on orders over 299€
-              </h3>
-              <p>
-                Unlock the joy of seamless shipping, delivered straight to your
-                door, absolutely free! Experience the convenience with orders
-                over 299€.
-              </p>
-            </article>
-            <article class="benefit free-returns">
-              <h3>
-                <span class="material-symbols-outlined"> quick_reorder </span
-                >Free returns for 30 days
-              </h3>
-              <p>
-                Love it or return it, hassle-free! Enjoy complimentary returns
-                within a generous 30-day window.
-              </p>
-            </article>
-            <article class="benefit carbon-neutral">
-              <h3>
-                <span class="material-symbols-outlined"> eco </span
-                >Carbon-Neutral Deliveries
-              </h3>
-              <p>
-                Experience guilt-free deliveries from 4BD! Our shipments are
-                carbon-neutral, thanks to our commitment to offsetting CO₂
-                emissions with top-tier climate protection projects.
-              </p>
-            </article>
-          </div>
+      <section class="our-benefits" id="our-benefits">
+        <h2>Our Benefits</h2>
+        <div class="articles-container">
+          <article class="benefit free-shipping">
+            <h3>
+              <span class="material-symbols-outlined"> local_shipping </span
+              >Free shipping on orders over 299€
+            </h3>
+            <p>
+              Unlock the joy of seamless shipping, delivered straight to your
+              door, absolutely free! Experience the convenience with orders
+              over 299€.
+            </p>
+          </article>
+          <article class="benefit free-returns">
+            <h3>
+              <span class="material-symbols-outlined"> quick_reorder </span
+              >Free returns for 30 days
+            </h3>
+            <p>
+              Love it or return it, hassle-free! Enjoy complimentary returns
+              within a generous 30-day window.
+            </p>
+          </article>
+          <article class="benefit carbon-neutral">
+            <h3>
+              <span class="material-symbols-outlined"> eco </span
+              >Carbon-Neutral Deliveries
+            </h3>
+            <p>
+              Experience guilt-free deliveries from 4BD! Our shipments are
+              carbon-neutral, thanks to our commitment to offsetting CO₂
+              emissions with top-tier climate protection projects.
+            </p>
+          </article>
         </div>
       </section>
-      <section class="slider section-padding" id="slider">
-        <ul id="autoWidth" class="cs-hidden">
-          <li class="item-a">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-boxy-oxford-light-blue.avif"
-                  alt="The Boxy Oxford - Light Blue"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
+      <section class="slider" id="slider">
+        <h2>For this weekend only, enjoy exclusive discounts on our top styles.</h2>
+        <div class="slider-container">
+          <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-boxy-oxford-light-blue.avif"
+                    alt="The Boxy Oxford - Light Blue"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Boxy Oxford</div></a>
+                    <div class="product-price"><span class="old-price">$159</span> <span class="new-price">$99</span></div>
+                  </div>
+                  <div class="product-color">Light Blue</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Boxy Oxford</div></a>
-                  <div class="product-price"><span class="old-price">$159</span> <span class="new-price">$99</span></div>
+            </li>
+            <li class="item-b">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-silky-cttn-relaxed-shirt-optic-white.avif"
+                    alt="The Silky Cotton Relaxed shirt"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">Light Blue</div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-silky-cttn-relaxed-shirt-optic-white.avif"
-                  alt="The Silky Cotton Relaxed shirt"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Silky Cotton Relaxed shirt</div></a>
+                    <div class="product-price"><span class="old-price">$189</span> <span class="new-price">$99</span></div>
+                  </div>
+                  <div class="product-color">White</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Silky Cotton Relaxed shirt</div></a>
-                  <div class="product-price"><span class="old-price">$189</span> <span class="new-price">$99</span></div>
+            </li>
+            <li class="item-c">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-tencel-way-high-taper-pant-navy.avif"
+                    alt="The TENCEL Way-High Taper Pant"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">White</div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-tencel-way-high-taper-pant-navy.avif"
-                  alt="The TENCEL Way-High Taper Pant"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The TENCEL™ Way-High® Taper Pant</div></a>
+                    <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$149</span></div>
+                  </div>
+                  <div class="product-color">Navy</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The TENCEL™ Way-High® Taper Pant</div></a>
-                  <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$149</span></div>
+            </li>
+            <li class="item-d">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-way-high-jean-ind.avif"
+                    alt="The Way-High Jean"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">Navy</div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-way-high-jean-ind.avif"
-                  alt="The Way-High Jean"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Way-High® Jean</div></a>
+                    <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$118</span></div>
+                  </div>
+                  <div class="product-color">Vintage Indigo</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Way-High® Jean</div></a>
-                  <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$118</span></div>
+            </li>
+            <li class="item-e">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-cashmere-boxy-crew-sweater-heathered-grey.avif"
+                    alt="The Cashmere Boxy Crew Sweater"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">Vintage Indigo</div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-way-high-jean-ind.avif"
-                  alt="The Way-High Jean"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Cashmere Boxy Crew Sweater</div></a>
+                    <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$119</span></div>
+                  </div>
+                  <div class="product-color">Heathered Grey</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Way-High® Jean</div></a>
-                  <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$118</span></div>
+            </li>
+            <li class="item-f">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-cashmere-boxy-crew-sweater-black.avif"
+                    alt="The Cashmere Boxy Crew Sweater"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">Vintage Indigo</div>
-            </div>
-          </li>
-          <li class="item-f">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-way-high-jean-ind.avif"
-                  alt="The Way-High Jean"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Cashmere Boxy Crew Sweater</div></a>
+                    <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$119</span></div>
+                  </div>
+                  <div class="product-color">Black</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Way-High® Jean</div></a>
-                  <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$118</span></div>
+            </li>
+            <li class="item-j">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-cashmere-classic-crew-sweater-light-sage-green.avif"
+                    alt="The Cashmeric Classic Crew Sweater"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">Vintage Indigo</div>
-            </div>
-          </li>
-          <li class="item-j">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-way-high-jean-ind.avif"
-                  alt="The Way-High Jean"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Cashmeric Classic Crew Sweater</div></a>
+                    <div class="product-price"><span class="old-price">$159</span> <span class="new-price">$119</span></div>
+                  </div>
+                  <div class="product-color">Light Sage Green</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Way-High® Jean</div></a>
-                  <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$118</span></div>
+            </li>
+            <li class="item-h">
+              <div class="box">
+                <div class="slide-img">
+                  <img
+                    src="media/images//slider-images/womens-cotton-honeycomb-cardigan-black.avif"
+                    alt="The Cotton Honeycomb Cardigan"
+                  />
+                  <div class="buy">
+                    <a href="#" class="btn">Buy Now</a>
+                  </div>
                 </div>
-                <div class="product-color">Vintage Indigo</div>
-            </div>
-          </li>
-          <li class="item-h">
-            <div class="box">
-              <div class="slide-img">
-                <img
-                  src="media/images//slider-images/womens-way-high-jean-ind.avif"
-                  alt="The Way-High Jean"
-                />
-                <div class="buy">
-                  <a href="#" class="btn">Buy Now</a>
-                </div>
+                <div class="detail-box">
+                  <div class="product-info">
+                    <div class="product-name"><a href="#">The Cotton Honeycomb Cardigan</div></a>
+                    <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$159</span></div>
+                  </div>
+                  <div class="product-color">Black</div>
               </div>
-              <div class="detail-box">
-                <div class="product-info">
-                  <div class="product-name"><a href="#">The Way-High® Jean</div></a>
-                  <div class="product-price"><span class="old-price">$199</span> <span class="new-price">$118</span></div>
-                </div>
-                <div class="product-color">Vintage Indigo</div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

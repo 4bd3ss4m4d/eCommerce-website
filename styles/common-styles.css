@@ -46,6 +46,13 @@ h2 {
     /* 54px / 46px */
 }
 
+h3 {
+    font-size: 2.25rem;
+    /* 36px */
+    line-height: 1.33;
+    /* 48px / 36px */
+}
+
 h4 {
     font-size: 1.25rem;
     /* 20px */
